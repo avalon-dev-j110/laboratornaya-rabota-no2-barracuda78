@@ -19,7 +19,8 @@ public interface Point {
      *
      * 2. При необходимости, дополните структуру интерфеса.
      */
-
+    
+    
 
     /**
      * Возвращает абсциссу точки.
@@ -44,4 +45,11 @@ public interface Point {
      * @see <a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D0%B0">Ордината</a>
      */
     float getY();
+    
+    //сеттер для координаты х
+    void setX(float x);
+    
+    //сеттер для координаты y
+    void setY(float y);
+    
 }

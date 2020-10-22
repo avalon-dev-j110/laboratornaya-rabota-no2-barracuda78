@@ -12,7 +12,7 @@ package ru.avalon.java.dev.j10.labs.shapes;
  *
  * @see <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B3%D1%83%D1%80%D0%B0_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)">Фигура (геометрия)</a>
  */
-public interface Shape {
+public interface Shape{
 
     /*
      * TODO: Закончить определение интерфейса 'Shape'
@@ -36,5 +36,15 @@ public interface Shape {
      * @see <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C_%D1%84%D0%B8%D0%B3%D1%83%D1%80%D1%8B">Площадь фигуры</a>
      */
     float getArea();
+    
+//    @Override
+//    default public int compareTo(Shape shape){
+//        if(getArea() == shape.getArea())
+//            return 0;
+//        else if(getArea() > shape.getArea())
+//            return 1;
+//        else 
+//            return -1;
+//    }
 
 }
